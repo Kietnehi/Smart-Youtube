@@ -1,0 +1,20 @@
+# Core Framework
+fastapi
+uvicorn[standard]==0.40.0
+python-dotenv
+pydantic
+
+# YouTube & Media Processing
+youtube-transcript-api
+yt-dlp
+
+# AI & ML
+openai-whisper
+google-genai
+
+# Translation
+deep-translator
+
+# Utilities
+python-multipart
+httpx
