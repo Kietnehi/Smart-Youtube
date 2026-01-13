@@ -80,6 +80,27 @@ const TranscriptPanel = ({ transcript, currentTime, onTranslate, isTranslating }
     l.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  // If the user types a search that yields exactly one match, auto-select it
+  useEffect(() => {
+    if (searchTerm.trim() === '') return;
+    if (filteredLanguages.length === 1) {
+      const only = filteredLanguages[0];
+      if (only && only.code && only.code.toLowerCase() !== selectedLang.toLowerCase()) {
+        setSelectedLang(only.code);
+      }
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchTerm, filteredLanguages]);
+
+  const handleSearchKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (filteredLanguages.length > 0) {
+        setSelectedLang(filteredLanguages[0].code);
+      }
+    }
+  };
+
   return (
     <div className="transcript-panel">
       <div className="transcript-header">
@@ -87,9 +108,10 @@ const TranscriptPanel = ({ transcript, currentTime, onTranslate, isTranslating }
         <div className="translate-controls">
           <input
             type="text"
-            placeholder="Search languages..."
+            placeholder="Search languages (type and press Enter or select)..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
+            onKeyDown={handleSearchKeyDown}
             className="language-search"
             disabled={isTranslating}
           />

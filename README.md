@@ -2,21 +2,23 @@
 
 > AI-Powered YouTube Video Analysis & Note-Taking with Real-Time Transcript Synchronization
 
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-16+-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![npm](https://img.shields.io/badge/npm-8+-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-2.0%20Flash-8A2BE2?style=for-the-badge&logo=google&logoColor=white)
-![Whisper](https://img.shields.io/badge/OpenAI-Whisper-000000?style=for-the-badge&logo=openai&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/AI-Machine%20Learning-FF8C00?style=for-the-badge)
-![NLP](https://img.shields.io/badge/NLP-Natural%20Language%20Processing-FFD700?style=for-the-badge)
-![YouTube](https://img.shields.io/badge/YouTube-Transcript-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-![ffmpeg](https://img.shields.io/badge/ffmpeg-Audio%20Processing-1DB954?style=for-the-badge&logo=ffmpeg&logoColor=white)
-![yt-dlp](https://img.shields.io/badge/yt--dlp-Downloader-808080?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-❤️-FF4500?style=for-the-badge)
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-32CD32?style=for-the-badge)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-1E90FF?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-0.109-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-16+-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/npm-8+-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-2.0%20Flash-8A2BE2?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-Whisper-000000?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Machine%20Learning-FF8C00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/NLP-Natural%20Language%20Processing-FFD700?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/YouTube-Transcript-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  <img src="https://img.shields.io/badge/ffmpeg-Audio%20Processing-1DB954?style=for-the-badge&logo=ffmpeg&logoColor=white" />
+  <img src="https://img.shields.io/badge/yt--dlp-Downloader-808080?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open%20Source-❤️-FF4500?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-32CD32?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Contributions-Welcome-1E90FF?style=for-the-badge" />
+</p>
 
 
 ## 🌟 Features
